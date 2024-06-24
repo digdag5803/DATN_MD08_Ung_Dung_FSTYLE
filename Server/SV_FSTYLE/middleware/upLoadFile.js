@@ -18,6 +18,10 @@ const uploadAnh = upload.fields([
     maxCount: 1,
   },
   { name: "avatar", maxCount: 1 },
+  {
+    name: "imageProduct",
+    maxCount: 10,
+  }
 ]);
 
 module.exports = { uploadAnh, storage };
