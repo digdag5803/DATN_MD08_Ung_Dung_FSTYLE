@@ -17,6 +17,8 @@ exports.singUp = async (req, res) => {
       email: req.body.email,
       password: hashedPassword,
       phone: req.body.phone,
+
+      
     });
 
     const objUser = await newUser.save();
