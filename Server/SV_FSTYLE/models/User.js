@@ -38,6 +38,8 @@ const userSchema = new db.mongoose.Schema({
     type: String,
     require: true,
   },
+
+  
 });
 
 const user = db.mongoose.model("User", userSchema);
