@@ -14,6 +14,8 @@ router.post("/update-categories/:id", uploadAnh, categoriesAPI.updateDanhMuc);
 //
 router.post("/signup", userAPI.singUp);
 
+
+
 //
 router.post("/signin", userAPI.signIn);
 
