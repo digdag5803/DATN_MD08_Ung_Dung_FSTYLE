@@ -26,7 +26,7 @@ exports.singUp = async (req, res) => {
       message: "Đăng ký thành công.",
       result: objUser,
 
-      
+
     });
   } catch (error) {
     return res.status(500).json({
