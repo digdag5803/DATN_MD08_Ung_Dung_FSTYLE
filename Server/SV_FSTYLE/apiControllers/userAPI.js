@@ -42,6 +42,7 @@ exports.signIn = async (req, res) => {
 
     // Kiểm tra email có tồn tại không
     const userExists = await user.findOne({ email: email });
+    
     if (!userExists) {
       return res.status(400).json({
         message: "Email hoặc mật khẩu không đúng.",
