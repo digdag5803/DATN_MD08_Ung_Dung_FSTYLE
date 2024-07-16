@@ -64,7 +64,7 @@ exports.signIn = async (req, res) => {
     }
 
     // Tạo JWT token
-    // const token = jwt.sign({ id: userExists._id }, 'secretKey', { expiresIn: '1h' });
+    // const token = jwt.sign({ id: userExists._id }, 'secretKey', { expiresIn: '1h' })  ;
 
     return res.status(200).json({
       message: "Đăng nhập thành công.",
